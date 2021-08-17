@@ -1,11 +1,24 @@
 // JavaScript Document
  $(document).ready(function() {
-    $('#autoWidth','#autoWidth2','#autoWidth3').lightSlider({
+    $('#autoWidth').lightSlider({
         autoWidth:true,
         loop:true,
         onSliderLoad: function() {
-            $('#autoWidth','#autoWidth2','#autoWidth3').removeClass('cS-hidden');
+            $('#autoWidth').removeClass('cS-hidden');
         } 
     });
-  
+      $('#autoWidth2').lightSlider({
+        autoWidth:true,
+        loop:true,
+        onSliderLoad: function() {
+            $('#autoWidth2').removeClass('cS-hidden');
+        } 
+    });
+      $('#autoWidth3').lightSlider({
+        autoWidth:true,
+        loop:true,
+        onSliderLoad: function() {
+            $('#autoWidth3').removeClass('cS-hidden');
+        } 
+    });
   });
