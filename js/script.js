@@ -1,6 +1,6 @@
 // JavaScript Document
  $(document).ready(function() {
-    $('#autoWidth').lightSlider({
+    $(['#autoWidth','#autoWidth2','autoWidth3']).lightSlider({
         autoWidth:true,
         loop:true,
         onSliderLoad: function() {
