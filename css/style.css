@@ -4,7 +4,6 @@ body{
 	margin:0px;
 	padding:0px;
 	background:#a4152c;
-
 }
 ul{
 	list-style:none;
@@ -12,9 +11,14 @@ ul{
 a{
 	text-decoration:none;
 }
+h1{
+	margin:0px;
+	padding:0px;
+	color:white;
+}
 .container{
 	width:100%;
-	background:#a4152c;
+	background-color:#a4152c;
 	display:flex;
 	justify-content: center;
 	align-items: center;
@@ -23,7 +27,7 @@ a{
 .box{
 	width:350px;
 	height:610px;
-	background-color:#1e1e26;
+	background-color:#802b24;
 	border-radius: 10px;
 	box-shadow: 2px 10px 12px rgba(0,0,0,0.5);
 	display: flex;
