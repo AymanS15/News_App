@@ -3,7 +3,7 @@
 body{
 	margin:0px;
 	padding:0px;
-	background-color:#a4152c;
+	background:#a4152c;
 
 }
 ul{
@@ -14,8 +14,7 @@ a{
 }
 .container{
 	width:100%;
-	height: 100vh;
-	background-color:#a4152c;
+	background:#a4152c;
 	display:flex;
 	justify-content: center;
 	align-items: center;
