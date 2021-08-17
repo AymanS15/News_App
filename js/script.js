@@ -4,7 +4,8 @@
         autoWidth:true,
         loop:true,
         onSliderLoad: function() {
-            $('#autoWidth').removeClass('cS-hidden');
+            $('#autoWidth','#autoWidth2','#autoWidth3').removeClass('cS-hidden');
         } 
     });
+  
   });
