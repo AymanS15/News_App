@@ -1,9 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
 body{
-	margin:0px;
-	padding:0px;
-	background:#a4152c;
+  background-image: url('https://aymans15.github.io/News_App/Backgrounds/1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
 }
 ul{
 	list-style:none;
