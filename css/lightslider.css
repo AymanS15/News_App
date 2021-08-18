@@ -73,9 +73,10 @@
 
 /* Pager */
 .lSSlideOuter .lSPager.lSpg {
-    margin: 10px 0 0;
+    margin: 100px 0 0;
     padding: 0;
     text-align: center;
+
 }
 .lSSlideOuter .lSPager.lSpg > li {
     cursor: pointer;
@@ -83,7 +84,7 @@
     padding: 0 5px;
 }
 .lSSlideOuter .lSPager.lSpg > li a {
-    background-color: #222222;
+    background-color: #ff0000;
     border-radius: 30px;
     display: inline-block;
     height: 8px;
@@ -94,6 +95,8 @@
     z-index: 99;
     -webkit-transition: all 0.5s linear 0s;
     transition: all 0.5s linear 0s;
+     opacity:0;
+
 }
 .lSSlideOuter .lSPager.lSpg > li:hover a, .lSSlideOuter .lSPager.lSpg > li.active a {
     background-color: #428bca;
